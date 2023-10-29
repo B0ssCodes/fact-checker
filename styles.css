@@ -16,6 +16,9 @@ footer {
     text-align: center;
     font-size: 14px;
   }
+  p {
+    font-size: 16pt;
+  }
 #footerDetailsDiv{
     display: flex;
     justify-content: center;
@@ -218,7 +221,7 @@ footer {
   }
   
   .standardNewsTitle {
-    font-size: 16pt;
+    font-size: 20pt;
     font-weight: lightbold;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 1em;
