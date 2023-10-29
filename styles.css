@@ -151,7 +151,7 @@ footer {
 }
 #newsImage{
     margin-top: 1em;
-    height: 40em;
+    max-width: 55%;
     border-radius: 20px;
 }
 #newsInternalBody{
