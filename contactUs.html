@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbarWhole">
+        <div id="NavbarTitleDiv">
+        <h1 id="navbarTitle">THE FACT CHECKER</h1>
+        </div>
+        <div>
+        <ul id="navbarList">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/aboutUs.html">About Us</a></li>
+            <li><a href="/contactUs.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+<form method="POST" action="/submit-form.php">
+    <label for="fullName">Full name:</label>
+    <input type="text" id="fullName" name="fullName" required>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  
+    <label for="telephone">Telephone:</label>
+    <input type="tel" id="telephone" name="telephone" required>
+  
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">Select gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+  
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+  
+    <label for="purpose">Purpose:</label>
+    <select id="purpose" name="purpose" required>
+      <option value="">Select purpose</option>
+      <option value="feedback">Feedback</option>
+      <option value="comments">Comments</option>
+      <option value="bug">Bug</option>
+      <option value="question">Question</option>
+    </select>
+  
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+  
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" required></textarea>
+  
+    <button type="submit">Submit</button>
+  </form>
+</body>
+  </html>
