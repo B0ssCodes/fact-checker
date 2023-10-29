@@ -81,7 +81,6 @@ footer {
     background-color: #FAF9F6;
     border-radius: 50px;
     flex-direction: column;
-    
     flex-grow:1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
@@ -207,8 +206,8 @@ footer {
     border-radius: 60px;
     background-color: #FAF9F6;
     padding: 1em;
-    max-width: 30em;
-    flex-basis: 60%;
+    margin: 1em;
+    flex-basis: 30%;
     flex-grow: 1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 
@@ -280,19 +279,7 @@ footer {
   button[type="submit"]:hover {
     background-color: #555;
   }
-  .slider {
-    width: 40%;
-    height: 10px;
-    border-radius: 5px;
-    background-color: green;
-    outline: none;
-    
-  }
-  .slider:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    background-color: #ccc;
-  }
+  
   #newsBarBodyGreen{
     background-color: #34A853;
     border-radius: 50px;
