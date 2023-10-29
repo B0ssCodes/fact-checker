@@ -81,7 +81,8 @@ footer {
     background-color: #FAF9F6;
     border-radius: 50px;
     flex-direction: column;
-    width: 70%;
+    
+    flex-grow:1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 }
@@ -124,8 +125,8 @@ footer {
     border-radius: 60px;
     overflow: auto;
     padding: 2em;
+    flex-grow: 1;  
     flex-basis: 12.5em;
-    
     max-height: 34.125em;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
@@ -208,6 +209,7 @@ footer {
     padding: 1em;
     max-width: 30em;
     flex-basis: 60%;
+    flex-grow: 1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 
   }
