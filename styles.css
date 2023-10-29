@@ -43,7 +43,7 @@ footer {
 }
 #navbarTitle{
     color: white;
-    font-size: 30px;
+    font-size: 2em;
     margin-left: 1em;
     cursor: pointer;
     font-family: 'Bebas Neue', sans-serif;
@@ -79,18 +79,16 @@ footer {
     align-items: center;
     align-text: center;
     background-color: #FAF9F6;
-
     border-radius: 50px;
     flex-direction: column;
     width: 70%;
-    min-width: 400px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 }
 #featuredNewsEntry{
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    padding: 1em;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -129,7 +127,6 @@ footer {
     flex-basis: 12.5em;
     flex-grow: 1;
     max-height: 34.125em;
-    max-width: 337px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 }
@@ -210,8 +207,7 @@ footer {
     background-color: #FAF9F6;
     padding: 1em;
     max-width: 30em;
-    min-width: 20em;
-    flex-basis: 30%;
+    flex-basis: 40%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 
   }
