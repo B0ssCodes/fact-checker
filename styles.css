@@ -16,6 +16,9 @@ footer {
     text-align: center;
     font-size: 14px;
   }
+  footer a{
+    text-decoration: underline;
+  }
   p {
     font-size: 16pt;
   }
