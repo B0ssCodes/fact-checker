@@ -16,7 +16,7 @@ footer {
     text-align: center;
     font-size: 14px;
   }
-  footer a{
+  footer a {
     text-decoration: underline;
   }
   p {
@@ -41,6 +41,9 @@ footer {
 }
 #navbarWhole{
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     justify-content: space-between;
     align-items: center;
     background-color: #34a853;
@@ -89,6 +92,7 @@ footer {
     flex-direction: column;
     flex-grow:1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; // animation that calls transform defined in the :hover and gives it a period of 0.3s to scale up the standardNews div with the ease-in-out method.
 
 }
 #featuredNewsEntry{
@@ -102,6 +106,7 @@ footer {
 }
 #featuredNewsSection:hover{
  background-color: #d1ffbd;
+  transform: scale(1.02); //scale the div by 0.02 when hovered. This will happen in 0.3s when hovered over
 }
 #featuredNewsTitle{
     font-size: 16pt;
@@ -129,15 +134,23 @@ footer {
     background-color: #d5d8db;
     border-radius: 60px;
     overflow: auto;
-    padding: 2em;
+    padding: 0 1.5em 1.5em 1.5em;
     flex-grow: 1;  
     flex-basis: 18em;
     max-height: 50em;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 }
+#liveNews p{
+}
 #liveNewsTitle{
+    flex-grow: 1;
     display: flex;
+    position: sticky;
+    padding: 2em 0 0 0 ;
+    z-index: 1;
+    top: 0;
+    background-color: #d5d8db;
 }
 #newsBody{
     display: flex;
@@ -176,11 +189,15 @@ footer {
     margin: 3em;
 }
 .liveNewsEntries{
-    border-radius: 20px;
+    
     padding: 0.3em;
+    border-bottom: 1px solid black;
+    transition: transform 0.3s ease-in-out; // animation that calls transform defined in the :hover and gives it a period of 0.3s to scale up the standardNews div with the ease-in-out method.
 }
 .liveNewsEntries:hover{
     background-color: #FFF;
+    border-radius: 20px;
+    transform: scale(1.02);
 }
 
 #standardNewsSection {
@@ -215,6 +232,7 @@ footer {
     flex-grow: 1;
     flex-basis: 30em;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; // animation that calls transform defined in the :hover and gives it a period of 0.3s to scale up the standardNews div with the ease-in-out method.
   }
   .greenScore{
 
@@ -238,6 +256,7 @@ footer {
   }
   .standardNewsEntryGreen:hover {
     background-color: #d1ffbd;
+    transform: scale(1.02);
   }
 
   .standardNewsEntryGrey {
@@ -253,6 +272,7 @@ footer {
     flex-grow: 1;
     flex-basis: 30em;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; // animation that calls transform defined in the :hover and gives it a period of 0.3s to scale up the standardNews div with the ease-in-out method.
   }
 
   .standardNewsEntryGrey h2{
@@ -266,6 +286,7 @@ footer {
   }
   .standardNewsEntryGrey:hover {
     background-color: lightgrey;
+    transform: scale(1.02);
   }
 
   .standardNewsEntryRed {
@@ -281,6 +302,8 @@ footer {
     flex-grow: 1;
     flex-basis: 30em;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; // animation that calls transform defined in the :hover and gives it a period of 0.3s to scale up the standardNews div with the ease-in-out method.
+
   }
 
   .standardNewsEntryRed h2{
@@ -295,6 +318,8 @@ footer {
   
   .standardNewsEntryRed:hover {
     background-color: #ff6865;
+    transform: scale(1.02);
+    
   }
   
   .standardNewsTitle {
