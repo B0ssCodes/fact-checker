@@ -41,7 +41,7 @@ footer {
 }
 #navbarWhole{
     display: flex;
-    position: sticky;
+    position: sticky; //makes Navbar stay on top of the screen when scrolling down
     top: 0;
     z-index: 2;
     justify-content: space-between;
@@ -146,7 +146,7 @@ footer {
 #liveNewsTitle{
     flex-grow: 1;
     display: flex;
-    position: sticky;
+    position: sticky; // makes the Live News title stay on top of the Live News div when scrolling down
     padding: 2em 0 0 0 ;
     z-index: 1;
     top: 0;
@@ -337,7 +337,7 @@ footer {
   }
   form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; //centers the form elements vertically
     flex-grow: 1;
     margin: 3em;
     padding: 2em;
@@ -346,7 +346,7 @@ footer {
   }
   
   label {
-    display: block;
+    
     margin-bottom: 0.5em;
     font-weight: bold;
   }
@@ -356,7 +356,6 @@ footer {
   input[type="tel"],
   select,
   textarea {
-    display: block;
     width: 100%;
     padding: 0.7em;
     margin-bottom: 1em;
@@ -372,7 +371,6 @@ footer {
   }
   
   button[type="submit"] {
-    display: block;
     width: 100%;
     padding: 0.5em;
     margin-top: 1em;
