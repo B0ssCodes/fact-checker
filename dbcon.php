@@ -1,8 +1,8 @@
 <?php  //This file is just to connect to the db.
-$host = 'localhost';
-$user = 'root';
-$password = '123456';
-$dbname = 'factChecker';
+$host = 'mysql.db.mdbgo.com';
+$user = 'bossonmdbgo_factchecker';
+$password = 'Proutcapout1#';
+$dbname = 'bossonmdbgo_factchecker';
 
 // Set DSN
 $dsn = 'mysql:host=' . $host . ';dbname=' . $dbname;

@@ -68,7 +68,7 @@
             <h3>Source: <?php echo $source ?></h3>
            </div>
         </div>
-        <?php include '/templates/footer.php'; // Include the Footer?>
+        <?php include './templates/footer.php'; // Include the Footer?>
     </body>
 </html>
 
